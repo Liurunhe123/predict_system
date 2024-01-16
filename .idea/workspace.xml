@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04531e8e-2b05-4522-99c0-ac6493a11805" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/flaskProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blueprints/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blueprints/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blueprints/model_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/data_provider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/data_provider/data_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/data_provider/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/data_provider/my_data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/data_provider/uea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/exp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/exp/exp_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/exp/exp_long_term_forecasting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/AutoCorrelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/Autoformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/Conv_Blocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/Crossformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/ETSformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/Embed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/FourierCorrelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/MultiWaveletCorrelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/Pyraformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/SelfAttention_Family.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/Transformer_EncDec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/Autoformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/Crossformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/DLinear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/ETSformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/FEDformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/FiLM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/Informer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/Koopa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/LightTS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/MICN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/Nonstationary_Transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/PatchTST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/Pyraformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/Reformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/TiDE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/TimesNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/Transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/models/iTransformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/run1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/run2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/utils/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/utils/masking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/utils/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/utils/print_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/utils/timefeatures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_model/utils/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2a6wQkBq17RRgR7GsemwHV1W9Sr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flask server.Flask (DB.py).executor": "Run",
+    "Flask server.Flask (DTO/ModelInfo.py).executor": "Debug",
+    "Flask server.Flask (Model.py).executor": "Run",
+    "Flask server.Flask (app.py).executor": "Run",
+    "Flask server.Flask (main.py).executor": "Debug",
+    "Flask server.Flask (run.py).executor": "Run",
+    "Flask server.Flask (testDB.py).executor": "Run",
+    "Flask server.flaskProject.executor": "Run",
+    "Python.Model.executor": "Run",
+    "Python.db_engine.executor": "Run",
+    "Python.exp_long_term_forecasting.executor": "Debug",
+    "Python.run.executor": "Debug",
+    "Python.run1.executor": "Debug",
+    "Python.run2 (1).executor": "Debug",
+    "Python.run2.executor": "Debug",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/Desktop/ceg5003/code/predict_system/flaskProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Desktop\ceg5003\code\predict_system\flaskProject" />
+      <recent name="E:\Desktop\ceg5003\code\predict_system\flaskProject\data_provider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Desktop\ceg5003\code\predict_system\flaskProject\predict_model" />
+      <recent name="E:\Desktop\ceg5003\code\predict_system\flaskProject" />
+      <recent name="E:\Desktop\ceg5003\code\predict_system\flaskProject\predict_utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="Flask (DB.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="flaskProject" />
+      <option name="target" value="$PROJECT_DIR$/DB.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (DTO/ModelInfo.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="flaskProject" />
+      <option name="target" value="$PROJECT_DIR$/DTO/ModelInfo.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host=0.0.0.0 --port=8000" />
+      <option name="flaskDebug" value="true" />
+      <module name="flaskProject" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flaskProject" type="Python.FlaskServer">
+      <module name="flaskProject" />
+      <option name="target" value="$PROJECT_DIR$/main.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.flaskProject" />
+      <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="Flask server.Flask (DB.py)" />
+      <item itemvalue="Flask server.Flask (DTO/ModelInfo.py)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Flask server.Flask (DTO/ModelInfo.py)" />
+        <item itemvalue="Flask server.Flask (DB.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7a29c1521ef0-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.298" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04531e8e-2b05-4522-99c0-ac6493a11805" name="Changes" comment="" />
+      <created>1703652322394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703652322394</updated>
+      <workItem from="1703652339182" duration="911000" />
+      <workItem from="1703664383596" duration="4395000" />
+      <workItem from="1703731459442" duration="1661000" />
+      <workItem from="1703775142211" duration="28389000" />
+      <workItem from="1703863021699" duration="305000" />
+      <workItem from="1703863415346" duration="16238000" />
+      <workItem from="1704096506385" duration="651000" />
+      <workItem from="1704097353157" duration="3309000" />
+      <workItem from="1704100990260" duration="1314000" />
+      <workItem from="1704102316154" duration="10536000" />
+      <workItem from="1704688961620" duration="2677000" />
+      <workItem from="1704947074434" duration="4320000" />
+      <workItem from="1705035669931" duration="48689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Model.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/predict_model/data_provider/custom_loader.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__DTO_ModelInfo_py_.coverage" NAME="Flask (DTO/ModelInfo.py) Coverage Results" MODIFIED="1705042132173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$run2__1_.coverage" NAME="run2 (1) Coverage Results" MODIFIED="1705080932520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/predict_model" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__testDB_py_.coverage" NAME="Flask (testDB.py) Coverage Results" MODIFIED="1703840826307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__Model_py_.coverage" NAME="Flask (Model.py) Coverage Results" MODIFIED="1703851858385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$exp_long_term_forecasting.coverage" NAME="exp_long_term_forecasting Coverage Results" MODIFIED="1704097371272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp" />
+    <SUITE FILE_PATH="coverage/flaskProject$run.coverage" NAME="run Coverage Results" MODIFIED="1703865288768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__app_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1704951840320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$Model.coverage" NAME="Model Coverage Results" MODIFIED="1703841523053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$run1.coverage" NAME="run1 Coverage Results" MODIFIED="1703959438533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$db_engine.coverage" NAME="db_engine Coverage Results" MODIFIED="1703838605891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$test.coverage" NAME="test Coverage Results" MODIFIED="1703819266482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__run_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1705304955631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask__DB_py_.coverage" NAME="Flask (DB.py) Coverage Results" MODIFIED="1704947924439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$run2.coverage" NAME="run2 Coverage Results" MODIFIED="1705231469958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/predict_model" />
+  </component>
+</project>
